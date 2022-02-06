@@ -109,6 +109,7 @@ header {
   flex-wrap: wrap;
   align-content: center;
   gap: 20px;
+  width: 80%;
 }
 
 .coin {
