@@ -1,1 +1,18 @@
 Bomber-Coin,Space-Crypto,MetaGods,Luna-Rush,Nintia-Estate,Crystal-Kingdoms,Shining-Crystal-Shard,Decentraland,The-Sandbox,oec-binance-coin,ronin,smooth-love-potion,axie-infinity,dogzverse-token,binance-peg-avalanche,cryptoblades
+
+BCOIN : 0x00e1656e45f18ec6747f5a8496fd39b50b38396d
+SPG : 0x0ecaf010fc192e2d5cbeb4dfb1fee20fbd733aa1
+MGOD  : 0x10a12969cb08a8d88d4bfb5d1fa317d41e0fdab3
+LUS : 0xde301d6a2569aefcfe271b9d98f318baee1d30a4
+NINTI : 0xfa57ff4670f9016069e799a51a3186d03991e431
+AVAX : FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z
+MANA : 0x0f5d2fb29fb7d3cfee444a200298f468908cc942
+SAND : 0x3845badade8e6dff049820680d1f14bd3903a5d0
+BNB : binance.com
+DGZV : 0x9376e6b29b5422f38391a2a315623cb853c3c68e
+CKG : 0xcd32a0e26b3a87a064476b2c9e5e691df9ca063a
+SCS : 0xbde9f504d0f3ea0cb1c7d1661fcc941b61613ace
+AXS : 0xbb0e17ef65f82ab018d8edd776e8dd940327b28b
+SLP : 0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25
+RON : roninchain.com
+SKILL : 0x154a9f9cbd3449ad22fdae23044319d6ef2a1fab

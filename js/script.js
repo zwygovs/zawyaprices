@@ -327,3 +327,197 @@ function setTotal() {
     //console.log(sum);
     document.getElementById('balance').innerHTML = sum.toFixed(2);
 }
+
+var copybtnBcoin = document.getElementById("copy-btn-bcoin");
+var copybtnspg = document.getElementById("copy-btn-spg");
+var copybtnmgod = document.getElementById("copy-btn-mgod");
+var copybtnlus = document.getElementById("copy-btn-lus");
+var copybtnninti = document.getElementById("copy-btn-ninti");
+var copybtnavax = document.getElementById("copy-btn-avax");
+var copybtnmana = document.getElementById("copy-btn-mana");
+var copybtnsand = document.getElementById("copy-btn-sand");
+var copybtnbnb = document.getElementById("copy-btn-bnb");
+var copybtndgzv = document.getElementById("copy-btn-dgzv");
+var copybtnckg = document.getElementById("copy-btn-ckg");
+var copybtnscs = document.getElementById("copy-btn-scs");
+var copybtnaxs = document.getElementById("copy-btn-axs");
+var copybtnslp = document.getElementById("copy-btn-slp");
+var copybtnron = document.getElementById("copy-btn-ron");
+var copybtnskill = document.getElementById("copy-btn-skill");
+var link_complete_Bcoin = document.getElementById("address_complete-bcoin");
+var link_complete_spg = document.getElementById("address_complete-spg");
+var link_complete_mgod = document.getElementById("address_complete-mgod");
+var link_complete_lus = document.getElementById("address_complete-lus");
+var link_complete_ninti = document.getElementById("address_complete-ninti");
+var link_complete_avax = document.getElementById("address_complete-avax");
+var link_complete_mana = document.getElementById("address_complete-mana");
+var link_complete_sand = document.getElementById("address_complete-sand");
+var link_complete_bnb = document.getElementById("address_complete-bnb");
+var link_complete_dgzv = document.getElementById("address_complete-dgzv");
+var link_complete_ckg = document.getElementById("address_complete-ckg");
+var link_complete_scs = document.getElementById("address_complete-scs");
+var link_complete_axs = document.getElementById("address_complete-axs");
+var link_complete_slp = document.getElementById("address_complete-slp");
+var link_complete_ron = document.getElementById("address_complete-ron");
+var link_complete_skill = document.getElementById("address_complete-mgod");
+var copyfieldBcoin = document.querySelector('.copyfield-bcoin');
+var copyfieldspg = document.querySelector('.copyfield-spg');
+var copyfieldmgod = document.querySelector('.copyfield-mgod');
+var copyfieldlus = document.querySelector('.copyfield-lus');
+var copyfieldninti = document.querySelector('.copyfield-ninti');
+var copyfieldavax = document.querySelector('.copyfield-avax');
+var copyfieldmana = document.querySelector('.copyfield-mana');
+var copyfieldsand = document.querySelector('.copyfield-sand');
+var copyfieldbnb = document.querySelector('.copyfield-bnb');
+var copyfielddgzv = document.querySelector('.copyfield-mgod');
+var copyfieldckg = document.querySelector('.copyfield-ckg');
+var copyfieldscs = document.querySelector('.copyfield-scs');
+var copyfieldaxs = document.querySelector('.copyfield-axs');
+var copyfieldslp = document.querySelector('.copyfield-slp');
+var copyfieldron = document.querySelector('.copyfield-ron');
+var copyfieldskill = document.querySelector('.copyfield-skill');
+
+copybtnBcoin.onclick = function () {
+    navigator.clipboard.writeText(link_complete_Bcoin.innerHTML);
+    copybtnBcoin.innerHTML = "Copied"
+    copyfieldBcoin.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnBcoin.innerHTML = "Copy Address"
+        copyfieldBcoin.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnspg.onclick = function () {
+    navigator.clipboard.writeText(link_complete_spg.innerHTML);
+    copybtnspg.innerHTML = "Copied"
+    copyfieldspg.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnspg.innerHTML = "Copy Address"
+        copyfieldspg.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnmgod.onclick = function () {
+    navigator.clipboard.writeText(link_complete_mgod.innerHTML);
+    copybtnmgod.innerHTML = "Copied"
+    copyfieldmgod.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnmgod.innerHTML = "Copy Address"
+        copyfieldmgod.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnlus.onclick = function () {
+    navigator.clipboard.writeText(link_complete_lus.innerHTML);
+    copybtnlus.innerHTML = "Copied"
+    copyfieldlus.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnlus.innerHTML = "Copy Address"
+        copyfieldlus.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnninti.onclick = function () {
+    navigator.clipboard.writeText(link_complete_ninti.innerHTML);
+    copybtnninti.innerHTML = "Copied"
+    copyfieldninti.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnninti.innerHTML = "Copy Address"
+        copyfieldninti.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnavax.onclick = function () {
+    navigator.clipboard.writeText(link_complete_avax.innerHTML);
+    copybtnavax.innerHTML = "Copied"
+    copyfieldavax.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnavax.innerHTML = "Copy Address"
+        copyfieldavax.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnmana.onclick = function () {
+    navigator.clipboard.writeText(link_complete_mana.innerHTML);
+    copybtnmana.innerHTML = "Copied"
+    copyfieldmana.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnmana.innerHTML = "Copy Address"
+        copyfieldmana.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnsand.onclick = function () {
+    navigator.clipboard.writeText(link_complete_sand.innerHTML);
+    copybtnsand.innerHTML = "Copied"
+    copyfieldsand.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnsand.innerHTML = "Copy Address"
+        copyfieldsand.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnbnb.onclick = function () {
+    navigator.clipboard.writeText(link_complete_bnb.innerHTML);
+    copybtnbnb.innerHTML = "Copied"
+    copyfieldbnb.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnbnb.innerHTML = "Copy Address"
+        copyfieldbnb.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtndgzv.onclick = function () {
+    navigator.clipboard.writeText(link_complete_dgzv.innerHTML);
+    copybtndgzv.innerHTML = "Copied"
+    copyfielddgzv.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtndgzv.innerHTML = "Copy Address"
+        copyfielddgzv.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnckg.onclick = function () {
+    navigator.clipboard.writeText(link_complete_ckg.innerHTML);
+    copybtnckg.innerHTML = "Copied"
+    copyfieldckg.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnckg.innerHTML = "Copy Address"
+        copyfieldckg.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnscs.onclick = function () {
+    navigator.clipboard.writeText(link_complete_scs.innerHTML);
+    copybtnscs.innerHTML = "Copied"
+    copyfieldscs.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnscs.innerHTML = "Copy Address"
+        copyfieldscs.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnaxs.onclick = function () {
+    navigator.clipboard.writeText(link_complete_axs.innerHTML);
+    copybtnaxs.innerHTML = "Copied"
+    copyfieldaxs.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnaxs.innerHTML = "Copy Address"
+        copyfieldaxs.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnslp.onclick = function () {
+    navigator.clipboard.writeText(link_complete_slp.innerHTML);
+    copybtnslp.innerHTML = "Copied"
+    copyfieldslp.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnslp.innerHTML = "Copy Address"
+        copyfieldslp.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnron.onclick = function () {
+    navigator.clipboard.writeText(link_complete_ron.innerHTML);
+    copybtnron.innerHTML = "Copied"
+    copyfieldron.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnron.innerHTML = "Copy Address"
+        copyfieldron.style.backgroundColor = "#212121";
+    }, 2000)
+};
+copybtnskill.onclick = function () {
+    navigator.clipboard.writeText(link_complete_skill.innerHTML);
+    copybtnskill.innerHTML = "Copied"
+    copyfieldskill.style.backgroundColor = "#9FC61C"; 
+    setTimeout(function (){
+        copybtnskill.innerHTML = "Copy Address"
+        copyfieldskill.style.backgroundColor = "#212121";
+    }, 2000)
+};
